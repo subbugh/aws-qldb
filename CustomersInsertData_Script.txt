@@ -1,0 +1,25 @@
+INSERT INTO Customers
+<< {
+    'CustomerID' : 'Customer601',
+    'FirstName' : 'Subramanyam',
+    'LastName' : 'Vemala',
+    'DOB' : '1994-02-28',
+    'SSN' : '674873457',
+    'Address' : 'G5, 26th Cross, HSR Layout, Sector-1, Bangalore, Karnataka, India 560102'
+},
+{
+    'CustomerID' : 'Customer602',
+    'FirstName' : 'John',
+    'LastName' : 'Smith',
+    'DOB' : '1984-02-28',
+    'SSN' : '674873458',
+    'Address' : '98 42th St, NYC, NY, USA 10021'
+},
+{
+    'CustomerID' : 'Customer603',
+    'FirstName' : 'Domnick',
+    'LastName' : 'Brown',
+    'DOB' : '1974-02-28',
+    'SSN' : '674873459',
+    'Address' : '11 5th St, NYC, NY, USA 19931'
+}>>

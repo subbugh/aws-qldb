@@ -1,0 +1,50 @@
+INSERT INTO Policies
+<< {
+    'CustomerID' : 'Customer601',
+    'PolicyID' : 'Policy201',
+    'PolicyType' : 'Auto',
+    'StartDate' : '1992-03-12',
+    'EndDate' : '2019-10-7'
+},
+{
+    'CustomerID' : 'Customer602',
+    'PolicyID' : 'Policy202',
+    'PolicyType' : 'Life',
+    'StartDate' : '2001-10-1',
+    'EndDate' : '2019-10-7'
+},
+{
+   'CustomerID' : 'Customer602',
+    'PolicyID' : 'Policy203',
+    'PolicyType' : 'Auto',
+    'StartDate' : '2001-10-1',
+    'EndDate' : '2019-10-7'
+},
+{
+    'CustomerID' : 'Customer602',
+    'PolicyID' : 'Policy204',
+    'PolicyType' : 'Home',
+    'StartDate' : '2001-10-1',
+    'EndDate' : '2019-10-7'
+},
+{
+    'CustomerID' : 'Customer601',
+    'PolicyID' : 'Policy205',
+    'PolicyType' : 'Life',
+    'StartDate' : '1992-03-12',
+    'EndDate' : '2019-10-7'
+},
+{
+    'CustomerID' : 'Customer603',
+    'PolicyID' : 'Policy206',
+    'PolicyType' : 'Auto',
+    'StartDate' : '1992-03-12',
+    'EndDate' : '2019-10-7'
+},
+{
+    'CustomerID' : 'Customer601',
+    'PolicyID' : 'Policy207',
+    'PolicyType' : 'Life',
+    'StartDate' : '1992-03-12',
+    'EndDate' : '2019-10-7'
+}>>

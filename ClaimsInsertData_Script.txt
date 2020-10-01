@@ -1,0 +1,28 @@
+INSERT INTO Claims
+<< {
+    'ClaimID' : 'Claim1234',
+    'PolicyID' : 'Policy201',
+    'ClaimDate' : '2009-10-7',
+    'ClaimAmount' : '2839.09',
+    'PaidAmount':'98',
+    'PaidDate' :'2009-10-8',
+    'Status' : 'Processed'
+},
+{
+    'ClaimID' : 'Claim904',
+    'PolicyID' : 'Policy202',
+    'ClaimDate' : '2019-09-7',
+    'ClaimAmount' : '792.03',
+    'PaidAmount':'0',
+    'PaidDate' : '',
+    'Status' : 'Pending'
+},
+{
+    'ClaimID' : 'Claim1824',
+    'PolicyID' : 'Policy203',
+    'ClaimDate' : '2019-09-7',
+    'ClaimAmount' : '8929.00',
+    'PaidAmount':'0',
+    'PaidDate' : '',
+    'Status' : 'Pending'
+} >>
