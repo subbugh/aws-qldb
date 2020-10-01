@@ -1,0 +1,1 @@
+﻿{"digest":"drYOhZzgyqBbSJ43bIvSuor/M9xIjOm1SjNDqLQu19U=","digestTipAddress":"{strandId:\"6xA6iQ1MmqfL5MS1ReOM7d\",sequenceNo:23}","ledger":"SubbuAWSQLDBInsurance","date":"2020-09-30T11:56:59.556Z"}
