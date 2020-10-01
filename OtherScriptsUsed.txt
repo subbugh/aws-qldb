@@ -1,0 +1,30 @@
+Create table:
+create table Customers
+create table Policies
+create table Claims
+
+Create index on tables:
+create index on Customers (CustomerID)
+create index on Policies (PolicicyID)
+create index on Claims (ClaimID)
+
+View Claims Metadata:
+select * from _ql_committed_Claims
+
+Check the history of a ClaimsID, using its metadata ID: 
+select * from history(Claims) as c where c.metadata.id='5PLfK5lTW6qENDYq1I8LIb'
+
+Few Update statements:
+update Claims set PaidAmount='700.00' where ClaimID='Claim904'
+update Claims set PaidDate='2020-09-29' where ClaimID='Claim904'
+update Claims set Status='Processed' where ClaimID='Claim904'
+update Claims set Status='Paid' where ClaimID='Claim904'
+
+Few Select statements:
+select * from history(Claims) as c where c.metadata.id='5PLfK5lTW6qENDYq1I8LIb'
+select * from Claims
+
+
+
+
+
